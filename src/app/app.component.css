@@ -1,0 +1,11 @@
+ .container-fluid  {
+    background-color: #12343b;
+    border: solid, red;
+    
+}
+.navbar-brand{
+    color: #c89666;
+}
+a {
+    color: white;
+}

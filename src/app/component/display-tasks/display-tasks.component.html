@@ -1,0 +1,23 @@
+
+<div class="container">
+
+
+    <table class="table table-hover">
+        <thead>
+            <tr>
+             <th>Task Name</th>
+             <th>Details</th>
+             <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let task of tasks">
+             <td > {{task.taskName}}</td>
+            
+           <td><button type="button" class = "btn btn-info btn-xs" [routerLink]="['/detail' , task.id]">Details</button> </td>
+             <td><button type="button" class ="btn btn-danger btn-xs" (click) = "deleteTask(task.id)">Delete</button></td>
+            </tr>
+
+        </tbody>
+    </table>
+</div> 

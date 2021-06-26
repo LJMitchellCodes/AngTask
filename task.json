@@ -1,0 +1,40 @@
+{
+  "task": [
+    {
+      "id": 2,
+      "taskName": "Take out the trash",
+      "taskDuedate": "2021-10-24",
+      "taskTool": "trash bags"
+    },
+    {
+      "id": 3,
+      "taskName": "Feed the animals",
+      "taskDuedate": "2021-10-24",
+      "taskTool": "Food"
+    },
+    {
+      "taskName": "Cook dinner",
+      "taskDuedate": "2021-07-24",
+      "taskTool": "Kitchen",
+      "id": 4
+    },
+    {
+      "taskName": "Cat's doctor appt",
+      "taskDuedate": "2021-07-21",
+      "taskTool": "Carrier",
+      "id": 5
+    },
+    {
+      "taskName": "Clean house",
+      "taskDuedate": "2021-06-25",
+      "taskTool": "Vacuum cleaner",
+      "id": 6
+    },
+    {
+      "taskName": "Fuel Jeep",
+      "taskDuedate": "2021-06-25",
+      "taskTool": "gas can",
+      "id": 7
+    }
+  ]
+}

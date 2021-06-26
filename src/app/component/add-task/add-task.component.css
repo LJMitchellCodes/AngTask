@@ -1,0 +1,9 @@
+.text-center {
+    background-color: #c89666;
+    margin-top: 150px;
+    border-radius: 12%;
+    border-bottom-left-radius: 22%;
+    border-bottom-right-radius: 22%;
+    color:#12343b;
+    font-weight: 700;
+}

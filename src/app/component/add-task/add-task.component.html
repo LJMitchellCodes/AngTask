@@ -1,0 +1,17 @@
+
+<div class = "text-center" >
+   
+         <Label  class="form-label">Task Name:  </Label>
+         <input type ="text" class = "form-control"  [(ngModel)]= "newTask.taskName" /> <br>
+        
+         <label  class="form-label">Due Date:  </label>
+         <input type="date" class = "form-control" [(ngModel)]= "newTask.taskDuedate" /><br>
+       
+        <label  class ="form-label"> Tools Needed:</label> 
+         <input type= "text" class = "form-control"  [(ngModel)]= "newTask.taskTool"   /><br>
+
+        <button class ="btn btn-success" (click) = "addTask()">Create a Task</button>
+   
+
+</div>
+
