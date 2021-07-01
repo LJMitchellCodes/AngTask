@@ -6,8 +6,9 @@
         <thead>
             <tr>
                 <th> Task Name </th>
-                <th> Due Date </th>
-                <th>Tools Needed</th>
+                <th> Date Opened </th>
+                <th>Severity</th>
+                <th> Task Type</th>
                 <th>Delete Task? <div class="text-danger">Warning, It will be gone forever!</div></th>
             </tr>
         </thead>
@@ -15,7 +16,8 @@
             <tr>
                 <td>{{taskDetail.taskName}}</td>
                 <td>{{taskDetail.taskDuedate}}</td>
-                <td>{{taskDetail.taskTool}}</td>
+                <td>{{taskDetail.taskSeverity}}</td>
+                <td>{{taskDetail.taskType}}</td>
                 <td><button type ="button" class="btn btn-danger btn-xs" (click)= "deleteTask(taskDetail.id)">Delete</button></td>
 
             </tr>

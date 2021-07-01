@@ -7,8 +7,12 @@
          <label  class="form-label">Due Date:  </label>
          <input type="date" class = "form-control" [(ngModel)]= "newTask.taskDuedate" /><br>
        
-        <label  class ="form-label"> Tools Needed:</label> 
-         <input type= "text" class = "form-control"  [(ngModel)]= "newTask.taskTool"   /><br>
+         <label  class ="form-label"> Severity:</label> 
+         <input type= "text" class = "form-control"  [(ngModel)]= "newTask.taskSeverity"   /><br>
+
+         <label  class ="form-label"> Task Type:</label> 
+         <input type= "text" class = "form-control"  [(ngModel)]= "newTask.taskType"   /><br>
+         
 
         <button class ="btn btn-success" (click) = "addTask()">Create a Task</button>
    

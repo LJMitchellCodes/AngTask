@@ -2,5 +2,6 @@ export class Task {
     id!: number;
     taskName!: string;
     taskDuedate!: number;
-    taskTool!: string;
+    taskSeverity!: string;
+    taskType!:string;
 }
