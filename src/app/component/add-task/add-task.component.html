@@ -15,6 +15,28 @@
          
          <label  class ="form-label"> Category:</label> 
          <input type= "text" class = "form-control"  [(ngModel)]= "newTask.taskCat"   /><br>
+        <div>
+         <label class="form-label">Status:</label>
+                <select class="form-select">
+                        <option>Assigned</option>
+                        <option>Maybe</option>
+                        <option>Confirmed</option>
+                        <option>Planned</option>
+                        <option>Suspended</option>
+                        <option>Researching</option>
+                        <option>New</option>
+                </select><br>
+        </div>
+  <!--  <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+                <button type="button" class="btn btn-info">Info</button>
+                <div class="btn-group" role="group">
+                  <button id="btnGroupDrop3" type="button" class="btn btn-info dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+                  <div class="dropdown-menu" aria-labelledby="btnGroupDrop3" style="">
+                    <a class="dropdown-item" href="#">Dropdown link</a>
+                    <a class="dropdown-item" href="#">Dropdown link</a>
+                  </div><br>-->
+
+                
 
         <button class ="btn btn-success" (click) = "addTask()">Create a Task</button>
    
