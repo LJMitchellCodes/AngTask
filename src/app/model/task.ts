@@ -4,4 +4,5 @@ export class Task {
     taskDuedate!: number;
     taskSeverity!: string;
     taskType!:string;
+    taskCat!: string;
 }

@@ -5,49 +5,56 @@
       "taskName": "Take out the trash",
       "taskDuedate": "2021-10-24",
       "taskSeverity": "trash bags",
-      "taskType": "Bug Report"
+      "taskType": "Bug Report",
+      "taskCat": "API"
     },
     {
       "id": 3,
       "taskName": "Feed the animals",
       "taskDuedate": "2021-10-24",
       "taskSeverity": "Food",
-      "taskType": "Feature Request"
+      "taskType": "Feature Request",
+      "taskCat": "API"
     },
     {
       "taskName": "Cook dinner",
       "taskDuedate": "2021-07-24",
       "taskSeverity": "Kitchen",
       "id": 4,
-      "taskType": "Information"
+      "taskType": "Information",
+      "taskCat": "API"
     },
     {
       "taskName": "Cat's doctor appt",
       "taskDuedate": "2021-07-21",
       "taskSeverity": "Carrier",
       "id": 5,
-      "taskType": "TODO"
+      "taskType": "TODO",
+      "taskCat": "API"
     },
     {
       "taskName": "Clean house",
       "taskDuedate": "2021-06-25",
       "taskSeverity": "Vacuum cleaner",
       "id": 6,
-      "taskType": "TODO"
+      "taskType": "TODO",
+      "taskCat": "API"
     },
     {
       "taskName": "Fuel Jeep",
       "taskDuedate": "2021-06-25",
       "taskSeverity": "gas can",
       "id": 7,
-      "taskType": "Bug Report"
+      "taskType": "Bug Report",
+      "taskCat": "API"
     },
     {
       "taskName": "wifi",
       "taskDuedate": "2021-07-01",
       "taskSeverity": "critical",
       "taskType": "bugreport",
-      "id": 8
+      "id": 8,
+      "taskCat": "API"
     }
   ]
 }
