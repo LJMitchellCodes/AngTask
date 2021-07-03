@@ -1,4 +1,4 @@
-.text-center {
+.container-fluid {
     background-color: transparent;
     margin-top: 150px;
     border-radius: 12%;
@@ -7,3 +7,4 @@
     color:#12343b;
     font-weight: 700;
 }
+

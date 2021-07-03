@@ -1,23 +1,36 @@
 
-<div class = "text-center" >
-   
-         <Label  class="form-label">Task Name:  </Label>
+<div class = "container-fluid" >
+   <div class= "row-fluid">
+        <div class = "col-md-4" >
+         <label for = "ex1">Task Name:  </label>
          <input type ="text" class = "form-control"  [(ngModel)]= "newTask.taskName" /> <br>
         
          <label  class="form-label">Due Date:  </label>
-         <input type="date" class = "form-control" [(ngModel)]= "newTask.taskDuedate" /><br>
+         <input type="date" class = "form-control" id= "ex1 "[(ngModel)]= "newTask.taskDuedate" /><br>
        
          <label  class ="form-label"> Severity:</label> 
          <input type= "text" class = "form-control"  [(ngModel)]= "newTask.taskSeverity"   /><br>
 
          <label  class ="form-label"> Task Type:</label> 
          <input type= "text" class = "form-control"  [(ngModel)]= "newTask.taskType"   /><br>
-         
+         </div>
+         <div class = "col-md-2" >
          <label  class ="form-label"> Category:</label> 
-         <input type= "text" class = "form-control"  [(ngModel)]= "newTask.taskCat"   /><br>
+         <select type= "text" class = "form-select"  [(ngModel)]= "newTask.taskCat" >
+                <option>API</option>
+                <option>Authetication</option>
+                <option>Backend</option>
+                <option>Database Queries</option>
+                <option>Documentation</option>
+                <option>Email</option>
+                <option>Install & Upgrade</option>
+                <option>Javascript</option>
+                <option>Notifications</option>
+                <option>User Interface</option>
+         </select><br>
         <div>
-         <label class="form-label">Status:</label>
-                <select class="form-select">
+        <label class="form-label">Status:</label>
+                <select type = "text" class="form-select">
                         <option>Assigned</option>
                         <option>Maybe</option>
                         <option>Confirmed</option>
@@ -26,7 +39,7 @@
                         <option>Researching</option>
                         <option>New</option>
                 </select><br>
-        </div>
+         </div>       
   <!--  <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
                 <button type="button" class="btn btn-info">Info</button>
                 <div class="btn-group" role="group">
