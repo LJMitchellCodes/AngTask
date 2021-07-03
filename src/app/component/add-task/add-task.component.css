@@ -1,10 +1,13 @@
 .container-fluid {
     background-color: transparent;
-    margin-top: 150px;
+    margin-top: 50px;
     border-radius: 12%;
     border-bottom-left-radius: 22%;
     border-bottom-right-radius: 22%;
     color:#12343b;
     font-weight: 700;
+    text-align: center;
 }
-
+label {
+    font-size: x-large;
+}
