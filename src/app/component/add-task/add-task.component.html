@@ -10,7 +10,13 @@
          <input type="date" class = "form-control" id= "ex1 "[(ngModel)]= "newTask.taskDuedate" />
        
          <label  class ="form-label"> Severity:</label> 
-         <input type= "text" class = "form-control"  [(ngModel)]= "newTask.taskSeverity"   />
+         <select type= "text" class = "form-select"  [(ngModel)]= "newTask.taskSeverity"   >
+                <option>Low</option>
+                <option>Medium</option>
+                <option>High</option>
+                <option>Critical</option>
+
+         </select>
 
          <label  class ="form-label"> Task Type:</label> 
          <input type= "text" class = "form-control"  [(ngModel)]= "newTask.taskType"   />

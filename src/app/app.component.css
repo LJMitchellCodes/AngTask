@@ -3,13 +3,16 @@
  
  
  .container-fluid  {
-    background-color: #12343b;
+    background-color: green;
     border: solid, red;
     
 }
-.navbar-brand{
-    color: #c89666;
-}
+
 a {
-    color: white;
+    color: rgb(211, 188, 188);
+}
+.navbar-nav
+{
+
+    color: turquoise;
 }
