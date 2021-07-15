@@ -3,10 +3,10 @@
    <div class= "row-fluid">
         <div class = "col-md-4" >
                 <h1>Add an Issue</h1>
-         <label for = "ex1">Task Name:  </label>
+         <label for = "ex1">Issue Name:  </label>
          <input type ="text" class = "form-control"  [(ngModel)]= "newTask.taskName" /> 
         
-         <label  class="form-label">Due Date:  </label>
+         <label  class="form-label"> Date:  </label>
          <input type="date" class = "form-control" id= "ex1 "[(ngModel)]= "newTask.taskDuedate" />
        
          <label  class ="form-label"> Severity:</label> 
@@ -15,7 +15,7 @@
          <label  class ="form-label"> Task Type:</label> 
          <input type= "text" class = "form-control"  [(ngModel)]= "newTask.taskType"   />
          </div>
-         <div class = "col-md-2" >
+         <div class = "col-md-4" >
          <label  class ="form-label"> Category:</label> 
          <select type= "text" class = "form-select"  [(ngModel)]= "newTask.taskCat" >
                 <option>API</option>
