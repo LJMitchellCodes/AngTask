@@ -1,6 +1,6 @@
 .container-fluid {
     background-color: transparent;
-    margin-top: 50px;
+    margin-top: 10px;
     border-radius: 12%;
     border-bottom-left-radius: 22%;
     border-bottom-right-radius: 22%;
@@ -9,5 +9,5 @@
     text-align: center;
 }
 label {
-    font-size: x-large;
+    font-size: medium;
 }

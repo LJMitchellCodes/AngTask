@@ -1,53 +1,85 @@
+<div class="container-fluid">
+  <div class="row-fluid">
+    <div class="col-md-5">
+      <h2>Add an Issue</h2>
+      <label for="ex1">Issue Name: </label>
+      <input type="text" class="form-control" [(ngModel)]="newTask.taskName" />
 
-<div class = "container-fluid" >
-   <div class= "row-fluid">
-        <div class = "col-md-5" >
-                <h1>Add an Issue</h1>
-         <label for = "ex1">Issue Name:  </label>
-         <input type ="text" class = "form-control"  [(ngModel)]= "newTask.taskName" /> 
-        
-         <label  class="form-label"> Date:  </label>
-         <input type="date" class = "form-control" id= "ex1 "[(ngModel)]= "newTask.taskDuedate" />
-       
-         <label  class ="form-label"> Severity:</label> 
-         <select type= "text" class = "form-select"  [(ngModel)]= "newTask.taskSeverity"   >
-                <option>Low</option>
-                <option>Medium</option>
-                <option>High</option>
-                <option>Critical</option>
+      <!-- <label class="form-label"> Date: </label> 
+      <input
+        type="date"
+        class="form-control"
+        id="ex1 "
+        [(ngModel)]="newTask.taskDuedate"
+      />-->
+      <label class="form-label"> Issue Type:</label>
+      <input type="text" class="form-control" [(ngModel)]="newTask.taskType" />
+    </div>
+    <div class="col-md-5">
+      <label class="form-label"> Category:</label>
+      <select type="text" class="form-select" [(ngModel)]="newTask.taskCat">
+        <option>API</option>
+        <option>Authetication</option>
+        <option>Backend</option>
+        <option>Database Queries</option>
+        <option>Documentation</option>
+        <option>Email</option>
+        <option>Install & Upgrade</option>
+        <option>Javascript</option>
+        <option>Notifications</option>
+        <option>User Interface</option>
+      </select>
 
-         </select>
+      <label class="form-label"> Severity:</label>
+      <select
+        type="text"
+        class="form-select"
+        [(ngModel)]="newTask.taskSeverity"
+      >
+        <option>Low</option>
+        <option>Medium</option>
+        <option>High</option>
+        <option>Critical</option>
+      </select>
 
-         <label  class ="form-label"> Issue Type:</label> 
-         <input type= "text" class = "form-control"  [(ngModel)]= "newTask.taskType"   />
-         </div>
-         <div class = "col-md-5" >
-         <label  class ="form-label"> Category:</label> 
-         <select type= "text" class = "form-select"  [(ngModel)]= "newTask.taskCat" >
-                <option>API</option>
-                <option>Authetication</option>
-                <option>Backend</option>
-                <option>Database Queries</option>
-                <option>Documentation</option>
-                <option>Email</option>
-                <option>Install & Upgrade</option>
-                <option>Javascript</option>
-                <option>Notifications</option>
-                <option>User Interface</option>
-         </select>
-        <div>
+      <!-- <label class="form-label"> Issue Type:</label> 
+      <input type="text" class="form-control" [(ngModel)]="newTask.taskType" />
+    </div>
+    <div class="col-md-5">
+      <label class="form-label"> Category:</label>
+      <select type="text" class="form-select" [(ngModel)]="newTask.taskCat">
+        <option>API</option>
+        <option>Authetication</option>
+        <option>Backend</option>
+        <option>Database Queries</option>
+        <option>Documentation</option>
+        <option>Email</option>
+        <option>Install & Upgrade</option>
+        <option>Javascript</option>
+        <option>Notifications</option>
+        <option>User Interface</option>
+      </select>  -->
+      <div>
         <label class="form-label">Status:</label>
-                <select type = "text" class="form-select">
-                        <option>Assigned</option>
-                        <option>Maybe</option>
-                        <option>Confirmed</option>
-                        <option>Planned</option>
-                        <option>Suspended</option>
-                        <option>Researching</option>
-                        <option>New</option>
-                </select><br>
-         </div>       
-  <!--  <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+        <select type="text" class="form-select">
+          <option>Assigned</option>
+          <option>Maybe</option>
+          <option>Confirmed</option>
+          <option>Planned</option>
+          <option>Suspended</option>
+          <option>Researching</option>
+          <option>New</option></select
+        ><br />
+      </div>
+
+      <label class="form-label"> Date: </label>
+      <input
+        type="date"
+        class="form-control"
+        id="ex1 "
+        [(ngModel)]="newTask.taskDuedate"
+      />
+      <!--  <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
                 <button type="button" class="btn btn-info">Info</button>
                 <div class="btn-group" role="group">
                   <button id="btnGroupDrop3" type="button" class="btn btn-info dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
@@ -56,10 +88,7 @@
                     <a class="dropdown-item" href="#">Dropdown link</a>
                   </div><br>-->
 
-                
-
-        <button class ="btn btn-success" (click) = "addTask()">Create a Task</button>
-   
-
+      <button class="btn btn-success" (click)="addTask()">Create a Task</button>
+    </div>
+  </div>
 </div>
-

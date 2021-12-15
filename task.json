@@ -49,20 +49,7 @@
       "taskCat": "API"
     },
     {
-      "taskName": "wifi",
-      "taskDuedate": "2021-07-01",
-      "taskSeverity": "critical",
-      "taskType": "bugreport",
-      "id": 8,
-      "taskCat": "API"
-    },
-    {
-      "taskName": "Test 25",
-      "taskDuedate": "2021-07-14",
-      "taskSeverity": "Medium",
-      "taskType": "new",
-      "taskCat": "Javascript",
-      "id": 9
+      "id": 8
     }
   ]
 }

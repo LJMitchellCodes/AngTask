@@ -3,13 +3,13 @@
  
  
  .container-fluid  {
-    background-color: green;
+    background-color: burlywood;
     border: solid, red;
     
 }
 
 a {
-    color: rgb(211, 188, 188);
+    color: black;
 }
 .navbar-nav
 {
